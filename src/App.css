@@ -137,6 +137,8 @@ select option {
 
 @media (min-width: 803px) {
   .main__container {
-    width: 769px;
+    width: 803px;
+    margin: 0 auto;
+    vertical-align: middle;
   }
 }
