@@ -1,0 +1,142 @@
+#root {
+  font-family: Inter, sans-serif;
+}
+
+body {
+  width: 100%;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.title {
+  color: rgb(20, 30, 55);
+  margin: 10px 20px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main__container {
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(35, 55, 80, 0.3) 0px 6px 12px;
+  margin-top: 20px;
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 32px 16px;
+  margin: 0 20px;
+}
+
+select option {
+  padding: 5px 0;
+}
+
+.main__content {
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.currency-converter__GridContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency-converter__label {
+  align-self: flex-start;
+  margin: 0 0px 4px;
+  display: inline-block;
+  color: rgb(20, 30, 55);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.switch__svg {
+  width: 16px;
+  height: 16px;
+  color: rgb(0, 108, 224);
+  transform: rotate(90deg);
+}
+
+.select__container {
+  margin: 20px 0;
+}
+.select__currencies {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+  padding: 12px;
+  color: rgb(20, 30, 55);
+  background: none;
+  width: 100%;
+}
+
+.amount__input {
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 6px;
+  box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+  padding: 12px;
+  color: rgb(20, 30, 55);
+  background: none;
+}
+
+.button__container {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.button__switch {
+  display: inline-flex;
+  background: none;
+  border: 1px solid rgb(221, 221, 221);
+  border-radius: 50%;
+  padding: 16px;
+}
+
+.from__currency {
+  color: rgb(92, 102, 123);
+  font-weight: 600;
+  margin: 0px;
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+.to__currency {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: rgb(46, 60, 87);
+}
+
+.select__label {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.information__container p {
+  margin: 10px 0;
+}
+
+.information__container p span {
+  font-weight: bold;
+}
+
+.price__toCurrency {
+  font-size: 0.8rem;
+  border-top: 1px solid #d3d3d3;
+  padding-top: 10px;
+}
+
+.error__message {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 803px) {
+  .main__container {
+    width: 769px;
+  }
+}
